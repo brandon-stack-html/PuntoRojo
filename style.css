@@ -1,0 +1,342 @@
+.home-blog-area.section-padding2 {
+    padding-bottom: 35px;
+}
+.our-services.servic-padding{
+    padding-top: 40px;
+    padding-bottom: 2rem;
+}
+.logo{
+    max-width:10rem;
+}
+/* Estilos de about */
+.preloader .preloader-img {
+    padding-top: 0px;
+}
+.preloader .preloader-img img {
+    max-width: 100px;
+}
+
+.favourite-place .single-place .place-img img {
+    max-height: 253px;
+}
+.title-rework{
+    text-align: center;
+    align-items: center;
+}
+
+.footer-social-footer{
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    filter: invert(1);
+}
+@media (min-width:768px) {
+    .footer-social-footer{
+        filter: invert(1);
+    }
+ }
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Proporción de aspecto 16:9 (500/1200) */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.row-x{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.opiniones .caja-contenedor .caja {
+    font-family: "Roboto", sans-serif;
+    background: white;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    border: 1rem solid rgba(0, 0, 0, .2);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    flex: 1 1 30rem;
+    border-radius: .5rem;
+}
+.heading{
+    font-family: "Roboto", sans-serif;
+text-align: center;
+}
+.arriba{
+    padding: 2rem;
+}
+.opiniones .caja-contenedor .caja .user img {
+    border-radius: 50%;
+    object-fit: cover;
+  
+}
+.opiniones .caja-contenedor .caja .user h3 {
+color: black;
+font-size: 4rem;
+}
+/**slider start**/
+.title-2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+/* }imagen-gradient */
+.h3 {
+
+    background: url(https://wallpaperset.com/w/full/e/7/0/35040.jpg) center/cover no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+  }
+  /* imagen finaliza gradient */
+  .slider-box {
+    background: url(https://th.bing.com/th/id/R.31565849f6ced1a8b51eb6d9cc460388?rik=Pa47awAw7LOEqg&riu=http%3a%2f%2f4.bp.blogspot.com%2f-JG-6kr8vMP4%2fTdJUr_izn8I%2fAAAAAAAAHmk%2fC7McFH43btQ%2fs1600%2fgreen_lime-1920x1200-hd-wallpaper.jpg&ehk=xSrt7YuANsCFyUQS5QUSagtsOKxO5vG1SLqe8zMEVj0%3d&risl=&pid=ImgRaw&r=0) center/cover no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  /* imagen finaliza gradient */
+  
+.slider-box {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 5rem auto 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider-list {
+    display: flex;
+    padding: 0;
+    width: 400%; /* Esto es para 4 imágenes, si tienes más puedes ajustar */
+    animation: slide 15s infinite alternate ease-in-out;
+}
+
+.slider-list li {
+    width: 25%; /* Cada imagen ocupa el 100% del contenedor */
+    list-style: none;
+    position: relative;
+    height: auto; /* Altura automática para las imágenes */
+    text-align: center;
+}
+
+.texto {
+    position: absolute;
+    text-align: center;
+    padding: 0 2rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 90%; /* Ajusta este valor según tus necesidades */
+    margin: 0 auto;
+}
+
+.texto h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.slider-box img {
+    width: 70%;
+    height: 70%;
+}
+
+@media (max-width: 767px) { 
+    .slider-box img {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 6rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .slider-box img {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 6rem;
+    }
+}
+
+
+
+@keyframes slide {
+    0% { transform: translateX(0%); }
+    25% { transform: translateX(0%); }
+    30% { transform: translateX(-25%); }
+    55% { transform: translateX(-25%); }
+    60% { transform: translateX(-50%); }
+    85% { transform: translateX(-50%); }
+    90% { transform: translateX(-75%); }
+    100% { transform: translateX(-75%); }
+}
+
+
+
+/**paquetes**/
+.text-packages{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.slider-height3{
+    min-height: 600px;
+}
+.pasadias-text {
+    display: inline-block;
+    margin: 10rem;
+    padding: 0px;
+}
+
+@media (max-width: 767px) {
+    .pasadias-text {
+        margin: 0; /* Elimina el margen en dispositivos móviles y tablets */
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Puedes agregar estilos adicionales para tablets si es necesario */
+    .pasadias-text {
+        margin: 0; /* Elimina el margen en tablets */
+    }
+}
+
+@media (min-width: 992px) {
+    .pasadias-text {
+        margin: 10rem; /* Restaura el margen de 10rem en computadoras */
+    }
+}
+
+
+
+/**titulos de los terminos y  condiciones**/
+.textos-importantes{
+font-family: "Roboto", sans-serif;
+text-align: center;
+color: #333333;
+font-size: 1.3rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.textos-importantes p {
+    color: #333333;
+    font-size: 1.3rem;
+    text-align: justify;
+    padding-bottom: 3rem;
+}
+.textos-importantes li{
+    text-align: justify;
+}
+.imagen-importante{
+
+    max-width: 30%;
+    height: auto;
+}
+/* tabla penalidades */
+.tabla-penalidades {
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    overflow-x: auto; /* Añadir desplazamiento horizontal en pantallas pequeñas */
+  }
+  
+  .tabla-penalidades table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .tabla-penalidades th,
+  .tabla-penalidades td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  /* Media queries para hacer la tabla responsive */
+  
+  /* Para tablets en modo horizontal y computadoras */
+  @media (min-width: 768px) {
+    .tabla-penalidades th,
+    .tabla-penalidades td {
+      font-size: 1.3rem;
+    }
+  }
+  
+  /* Para tablets en modo vertical y dispositivos móviles */
+  @media (max-width: 767px) {
+    .tabla-penalidades th,
+    .tabla-penalidades td {
+      font-size: 1rem;
+    }
+  }
+    
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  td {
+    font-size: 14px;
+  }
+
+  /* contac style  */
+  .support-company-area .right-caption .support-caption p{
+    padding-right: 0px;
+  }
+
+  .favourite-place .single-place .place-img img{
+    min-height: 253px;
+  }
+  .color-border{
+    border: 1px solid #666;
+  }
+  .URL-color {
+    color: rgb(0, 200, 255);
+    transition: color 0.3s; /* Agregamos una transición para suavizar el cambio de color */
+}
+
+/* Cambiamos el color cuando el cursor está sobre la URL */
+.URL-color:hover {
+    color: rgb(255, 0, 0); /* Cambiamos el color a rojo cuando el cursor está sobre la URL */
+}
+  
+  

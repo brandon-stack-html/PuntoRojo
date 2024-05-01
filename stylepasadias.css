@@ -1,0 +1,238 @@
+/* estilo preguntas frecuentes
+ */
+ .container-questions {
+  margin: auto;
+  width: 90%;
+}
+
+.container-faq {
+  box-shadow: 0 0 15 -1px rgba(0, 0, 0, .1);
+  padding: 6rem;
+  padding: 1rem;
+}
+
+.container-faq .title-faq {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.container-faq .item-faq {
+  box-shadow: 0 0 15px -1px rgba(0, 0, 0,.2);
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+}
+
+.container-faq .item-faq .question {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: limegreen;
+
+
+  background: linear-gradient(to right, rgba(0, 151, 15, 65.718), rgba(0, 321, 0, 138.718));
+
+  padding: 2rem 2rem 2rem 10rem;
+  transition: .4s;
+}
+
+.container-faq .item-faq .question .more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0  15px -1px rgba(0, 0, 0, .2);
+  width: 2rem;
+  height: 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: .4s;
+}
+
+.container-faq .item-faq .question .more:hover {
+  box-shadow: 0 0 15px -1px rgba(0, 0, 0, .4);
+}
+
+.container-faq .item-faq .question span {
+  position: absolute;
+  font-size: 3rem;
+}
+
+.img-problem {
+  position: absolute;
+  right: 34.31rem;
+  bottom: 3.81rem;
+  width: 5.69rem;
+  height: 4.75rem;
+}
+
+.container-faq .item-faq .answer {
+  position: relative;
+  padding:  0 2rem 0 0rem;
+  overflow: hidden;
+  height: 0;
+  transition: .4s;
+}
+
+.container-faq .item-faq .answer p {
+  font-size: 1.3rem;
+}
+
+.secciondepaqute{
+  margin-top: -20px; /* Mueve el section hacia arriba con un valor negativo */
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  .container-faq .item-faq .question {
+    padding: 2rem;
+  }
+
+  .container-faq .item-faq .question .more {
+    width: 3rem;
+    height: 3rem;
+    font-size: 0.8rem;
+  }
+
+  .container-faq{
+    padding: 1rem;
+  }
+
+  .container-faq .item-faq .question span {
+    font-size: 2rem;
+  }
+
+  .container-faq .item-faq .answer {
+    padding: 0 2rem;
+  }
+
+  .container-faq .item-faq .answer p {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .container-faq .item-faq .question {
+    padding: 1.2rem;
+  }
+
+  .container-faq .item-faq .question .more {
+    width: 2.2rem;
+    height: 2.2rem;
+    font-size: 0.7rem;
+  }
+  .container-faq{
+    padding: 1rem;
+  }
+
+  .container-faq .item-faq .question span {
+    font-size: 1.8rem;
+  }
+
+  .container-faq .item-faq .answer {
+    padding: 0 15px;
+  }
+
+  .container-faq .item-faq .question span {
+    font-size: 2rem;
+  }
+
+  .container-faq .item-faq .answer {
+    padding: 0 2rem;
+  }
+
+  .container-faq .item-faq .answer p {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .container-faq .item-faq .question {
+    padding: 1.2rem;
+  }
+
+  .container-faq .item-faq .question .more {
+    width: 2.2rem;
+    height: 2.2rem;
+    font-size: 0.7rem;
+  }
+
+  .container-faq .item-faq .question span {
+    font-size: 1.8rem;
+  }
+
+  .container-faq .item-faq .answer {
+    padding: 0 15px;
+  }
+  .container-faq .item-faq .answer p {
+    font-size: 1rem;
+  }
+}
+
+/* actividades de pasadias */
+.important-actividades{
+  text-align: center;
+
+  padding-top: 5rem;
+  padding-bottom: 0px;
+}
+
+/* tamaños imagenes */
+.tamaño-emojis{
+  width: 1px;
+  height: 1px;
+}
+
+/* tamaño de el texto */
+.text-helou{
+  font-size:20px;  
+  padding: 13px;
+}
+.text-black{
+  color: black;
+  text-align: center;
+}
+
+.icono {
+  margin-right: 15px; /* Ajusta el valor según necesites */
+}
+
+/* boton de adquirir paquete */
+.botonadquirir{
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #333;
+  background-color: whitesmoke;
+  color: #333;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  text-decoration: none; /* Para quitar el subrayado de los enlaces */
+  display: inline-block;
+  font-weight: 700;
+}
+
+
+.botonadquirir:hover {
+  /* Estilos al pasar el mouse sobre el botón */
+  background: linear-gradient(to right, rgba(0, 151, 15, 65.718), rgba(0, 321, 0, 138.718));
+  color: #f0f0f0;
+  border-color: #333;
+}
+
+.divdelboton{
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+/* color-precios */
+.text-decoration{
+  text-decoration: line-through;
+  color: red;
+}
+.text-decoration2{
+  color: #2ecc71;
+}
+
+
+
