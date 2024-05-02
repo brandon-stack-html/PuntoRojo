@@ -10,10 +10,10 @@
 }
 /* Estilos de about */
 .preloader .preloader-img {
-    padding-top: 0px;
+    padding-top: 10px;
 }
 .preloader .preloader-img img {
-    max-width: 100px;
+    max-width: 60px;
 }
 
 .favourite-place .single-place .place-img img {
@@ -338,5 +338,6 @@ align-items: center;
 .URL-color:hover {
     color: rgb(255, 0, 0); /* Cambiamos el color a rojo cuando el cursor está sobre la URL */
 }
-  
+
+
   
