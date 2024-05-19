@@ -6,7 +6,7 @@
     padding-bottom: 2rem;
 }
 .logo{
-    max-width:10rem;
+    max-width:5rem;
 }
 /* Estilos de about */
 .preloader .preloader-img {
@@ -338,6 +338,31 @@ align-items: center;
 .URL-color:hover {
     color: rgb(255, 0, 0); /* Cambiamos el color a rojo cuando el cursor está sobre la URL */
 }
+.margi {
+    margin: 40px;
+    padding-left: 30px;
+}
 
+/* Ajustes para dispositivos pequeños (celulares) */
+@media (max-width: 600px) {
+    .margi {
+        margin: 20px;
+        padding-left: 15px;
+    }
+}
 
-  
+/* Ajustes para dispositivos medianos (tablets) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .margi {
+        margin: 30px;
+        padding-left: 20px;
+    }
+}
+
+/* Ajustes para dispositivos grandes (computadores) */
+@media (min-width: 1025px) {
+    .margi {
+        margin: 40px;
+        padding-left: 30px;
+    }
+}
