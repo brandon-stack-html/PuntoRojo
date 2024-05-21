@@ -13,7 +13,7 @@
     padding-top: 10px;
 }
 .preloader .preloader-img img {
-    max-width: 60px;
+    max-width: 10rem;
 }
 
 .favourite-place .single-place .place-img img {
@@ -366,3 +366,8 @@ align-items: center;
         padding-left: 30px;
     }
 }
+
+.logito{
+    max-width: 20rem;
+}
+
