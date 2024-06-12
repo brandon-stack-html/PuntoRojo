@@ -55,7 +55,11 @@ h2:after {
   display: none;
 }
 h3 {
-  font-size: 3.2rem;
+  color: #fff;
+    font-size: 5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-top: 6.6rem;
 }
 .header {
   background-repeat: no-repeat;

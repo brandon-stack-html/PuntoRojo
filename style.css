@@ -2,11 +2,11 @@
     padding-bottom: 35px;
 }
 .our-services.servic-padding{
-    padding-top: 40px;
+    padding-top: 10rem;
     padding-bottom: 2rem;
 }
 .logo{
-    max-width:5rem;
+    max-width:2rem;
 }
 /* Estilos de about */
 .preloader .preloader-img {
@@ -368,6 +368,6 @@ align-items: center;
 }
 
 .logito{
-    max-width: 20rem;
+    max-width: 15rem;
 }
 

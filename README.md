@@ -1,2 +1,2 @@
 # happyTrip
-proyecto camila
+proyecto Esquina Punto Rojo
