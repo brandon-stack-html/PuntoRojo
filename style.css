@@ -374,4 +374,7 @@ align-items: center;
     max-width:2rem;
 
 }
-
+.ubication-title{
+    align-items: center;
+    justify-content: center;
+}
